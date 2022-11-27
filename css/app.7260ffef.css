@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px
+}
+
+a {
+    text-decoration: none
+}
+
+ul {
+    list-style: none
+}
+
+body {
+    background: hsla(0, 6%, 86%, .678)
+}
+
+.header {
+    padding: 20px 0;
+    box-shadow: 0 3px 10px 0 #000;
+    background: #fff
+}
+
+.header__nav {
+    justify-content: space-between
+}
+
+.header__nav,
+.header__nav-list {
+    display: flex;
+    align-items: center
+}
+
+.header__nav-list {
+    gap: 30px
+}
+
+.logo {
+    font-size: 25px;
+    line-height: 120%
+}
+
+.header__nav-link,
+.logo {
+    color: #000;
+    text-transform: uppercase
+}
+
+.header__nav-link {
+    font-size: 20px
+}
+
+.main__about {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    border-radius: 0 4px 4px 0
+}
+
+.about__h1 {
+    padding-top: 30px;
+    padding-bottom: 60px
+}
+
+.about__title {
+    padding-bottom: 10px;
+    margin: 20px 20px 0 20px;
+    font-size: 25px
+}
+
+.about__text {
+    font-size: 18px;
+    padding-bottom: 7px;
+    margin: 0 20px
+}
+
+.last {
+    margin-bottom: 20px
+}
+
+.main__about {
+    border: 2px solid #000;
+    border-radius: 25px;
+    background: #fff
+}
+
+.rooms__top-title {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center
+}
+
+.rooms__images-item {
+    max-width: 400px;
+    width: 100%;
+    padding: 1px 1px 0 1px;
+    transition: .2s
+}
+
+.rooms__images-item:hover {
+    transform: scale(1.1)
+}
+
+.rooms__images {
+    text-align: center
+}
+
+.rooms__main-title {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    font-size: 30px
+}
+
+.room__main {
+    justify-content: space-between;
+    gap: 3px
+}
+
+.room__main,
+.room__main-box {
+    display: flex;
+    align-items: center
+}
+
+.room__main-box {
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 5px solid #000;
+    background: #fff;
+    padding: 2px
+}
+
+.room__main-box img {
+    max-width: 620px;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px
+}
+
+.price-title {
+    padding-top: 30px;
+    padding-bottom: 20px
+}
+
+.room__main-link {
+    font-size: 18px
+}
+
+.price__title {
+    padding: 10px 0;
+    font-size: 30px
+}
+
+.room__main-list {
+    padding-bottom: 20px
+}
+
+.btn {
+    border: 2px solid #5a5a5a;
+    background: #fff;
+    padding: 8px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.telegram {
+    color: #000;
+    font-size: 20px
+}
+
+.home__top {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0;
+    background: url(/hotelTem/img/temurkhan.81b7f55c.jpg) no-repeat 50%;
+    background-size: cover;
+    position: relative
+}
+
+.home__top:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(55, 55, 55, .5);
+    z-index: 2
+}
+
+.home__top-list {
+    z-index: 4;
+    position: relative;
+    color: #000;
+    padding-left: 50px
+}
+
+.home__top-link {
+    font-size: 40px
+}
+
+.home__top-title {
+    font-size: 50px
+}
+
+.home__top-com {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    border: 2px solid #5a5a5a;
+    background: #989797;
+    max-width: 375px;
+    width: 100%;
+    border-radius: 30px;
+    padding: 1px 1px 1px 10px
+}
+
+.home__top-comment {
+    font-size: 20px;
+    width: 165px
+}
+
+.home__rooms-title {
+    font-size: 30px;
+    color: #000
+}
+
+.home__rooms-text,
+.home__rooms-title {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.home__rooms-text {
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 25px
+}
+
+.home__rooms-title {
+    margin-top: 20px
+}
+
+.footer__info-rigth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.tel {
+    color: #000;
+    font-size: 20px
+}
+
+.phone {
+    color: #5b5b5b
+}
+
+.footer {
+    padding: 20px 0;
+    box-shadow: 0 0 40px 0 #000;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    background: #fff
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.footer__info-confidens {
+    max-width: 300px;
+    width: 100%
+}
+
+.map {
+    border-radius: 20px;
+    padding-top: 20px
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 0
+}
+
+@media (max-width:768px) {
+    .footer__info-rigth {
+        font-size: 12px
+    }
+
+    .footer__info-confidens,
+    .footer__info-location {
+        font-size: 14px
+    }
+
+    .room__main {
+        gap: 3px
+    }
+
+    .price {
+        font-size: 22px
+    }
+
+    .rooms__images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media (max-width:592px) {
+    .header__nav-link {
+        font-size: 16px
+    }
+
+    .logo {
+        font-size: 22px
+    }
+
+    .price__title {
+        font-size: 26px
+    }
+
+    .tel {
+        font-size: 12px
+    }
+}
+
+@media (max-width:555px) {
+    .price__title {
+        font-size: 22px
+    }
+}
+
+@media (max-width:426px) {
+    .header__nav-list {
+        gap: 6px
+    }
+
+    .header__nav-link {
+        font-size: 12px
+    }
+
+    .price,
+    .price__title {
+        font-size: 18px
+    }
+
+    .room__main-link {
+        font-size: 15px
+    }
+
+    .footer__info-confidens,
+    .footer__info-location,
+    .tel {
+        font-size: 10px
+    }
+
+    .phone {
+        font-size: 12px
+    }
+
+    .footer__info-rigth {
+        gap: 3px
+    }
+
+    .footer__info {
+        gap: 4px
+    }
+
+    .rooms__main-title {
+        font-size: 22px
+    }
+}
+
+@media (max-width:376px) {
+    .telegram {
+        font-size: 15px
+    }
+
+    .home__top-link {
+        font-size: 30px
+    }
+
+    .home__top-title {
+        font-size: 35px
+    }
+
+    .header__nav-link {
+        font-size: 10px
+    }
+
+    .logo {
+        font-size: 15px
+    }
+
+    .home__top-comment {
+        font-size: 17px;
+        width: 142px
+    }
+
+    .home__top-com {
+        width: 295px;
+        gap: 0
+    }
+
+    .price,
+    .price__title {
+        font-size: 16px
+    }
+
+    .room__main-link {
+        font-size: 12px
+    }
+}
